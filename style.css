@@ -7,6 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Définit les espacements interligne, d'espace entre les cararctères et d'espace entre les mots */
+.new_space {
+  line-height: 30px; /* Définir la hauteur de l'interligne */
+  letter-spacing: 0px; /* Définir l'espace entre les caractères */
+  word-spacing: -1px; /* Définir l'espace entre les mots */
+}
+
+/* Mise en page du premier texte image */
+.undertitle {
+  width: 76%;
+  height: auto;
+  margin: auto;
+  font-weight: 700;
+  font-size: 170%;
+  margin-bottom: 20px;
+}
+
+/* Mise en page du deuxième texte image */
+.citation {
+  font-size: 120%;
+  font-style: italic;
+  font-weight: 400;
+  width: 85%;
+  margin: auto;
+}
+
+.name_citation {
+  font-size: 130%;
+  position: relative;
+  bottom: 30px;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -37,6 +69,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  z-index: 1;
 }
 
 .bloc .container {
@@ -438,6 +471,7 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .mg-lg {
@@ -679,7 +713,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 17px;
 }
 
 .tight-width-whitespace {
