@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: auto;
 }
 
 /* Mise en page dans le css non dans le html */
@@ -38,18 +39,6 @@ body {
   font-weight: 400;
   width: 85%;
   margin: auto;
-}
-
-/* Mise en page du premier background */
-.background1 {
-  width: 43%;
-  object-fit: cover;
-  /* margin: auto; */
-  position: absolute;
-  right: 1274px;
-  /* top: -35px; */
-  background-attachment: fixed;
-  background-size: 200px 200px;
 }
 
 .text_new {
@@ -925,7 +914,11 @@ h4 {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-device-width: 991px) (min-device-width: 768px) {
+  body {
+    width: 100%;
+  }
+
   .container {
     width: 100%;
   }
@@ -954,7 +947,7 @@ h4 {
   }
 }
 
-@media (max-width: 767px) {
+@media (min-device-width: 401px) (max-device-width: 767px) {
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1093,14 +1086,14 @@ h4 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-device-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
