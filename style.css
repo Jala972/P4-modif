@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Mise en page dans le css non dans le html */
+
+.keywords {
+  color: #cccccc;
+  font-size: 1px;
+}
+
 /* Définit les espacements interligne, d'espace entre les cararctères et d'espace entre les mots */
 .new_space {
   line-height: 30px; /* Définir la hauteur de l'interligne */
@@ -30,6 +37,13 @@ body {
   font-style: italic;
   font-weight: 400;
   width: 85%;
+  margin: auto;
+}
+
+.text_new {
+  font-size: 150%;
+  font-weight: 400;
+  width: 56%;
   margin: auto;
 }
 
