@@ -1444,6 +1444,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 390px;
+  margin: auto;
 }
 
 .img-rounded {
