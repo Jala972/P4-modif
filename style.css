@@ -41,6 +41,12 @@ body {
   margin: auto;
 }
 
+/* Mise en page des images */
+.img-responsive {
+  width: auto;
+  height: auto;
+}
+
 .text_new {
   font-size: 160%;
   font-weight: 400;
@@ -893,7 +899,7 @@ h4 {
   }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-device-width: 992px) and (min-device-width: 768px) {
   .navbar .nav {
     max-width: 80%;
   }
@@ -952,6 +958,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
+
   h1,
   h2,
   h3,
