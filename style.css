@@ -24,11 +24,11 @@ body {
 
 /* Mise en page du premier texte image */
 .undertitle {
-  width: 76%;
+  width: 95%;
   height: auto;
   margin: auto;
   font-weight: 700;
-  font-size: 170%;
+  font-size: 180%;
   margin-bottom: 20px;
 }
 
@@ -343,7 +343,7 @@ a:hover {
 
 .navbar-brand {
   height: auto;
-  padding: 3px 15px;
+  /* padding: 3px 15px; */
   font-size: 25px;
   font-weight: normal;
   font-weight: 600;
@@ -709,7 +709,7 @@ a {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 .hero-bloc-text {
@@ -731,7 +731,7 @@ a {
 }
 
 p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -946,9 +946,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-  body {
-    width: auto;
-  }
+ 
   .page-container {
     overflow-x: hidden;
     position: relative;
