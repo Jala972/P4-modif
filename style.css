@@ -41,6 +41,11 @@ body {
   margin: auto;
 }
 
+img {
+    height: auto;
+    width: 100%;
+}
+
 .text_new {
   font-size: 160%;
   font-weight: 400;
