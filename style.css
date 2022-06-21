@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: #fff;
   overflow-x: hidden;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -75,6 +76,7 @@ a:hover {
 
 .bloc {
   width: 100%;
+  height: auto;
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
@@ -871,10 +873,12 @@ h4 {
 
 .bg-banniere {
   background-image: url("img/agence-la-panthere_modif.jpg");
+  background-size: auto;
 }
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.jpg");
+  background-size: auto;
 }
 
 @media (max-width: 1024px) {
@@ -942,6 +946,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  body {
+    width: auto;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1081,6 +1088,9 @@ h4 {
 }
 
 @media (max-width: 400px) {
+  body {
+    width: 400px;
+  }
   .bloc {
     padding-left: 0;
     padding-right: 0;
