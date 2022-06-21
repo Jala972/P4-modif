@@ -1444,6 +1444,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: auto;
 }
 
 .img-rounded {
@@ -8088,6 +8089,8 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 120px;
+  height: auto;
 }
 
 .pull-right {
