@@ -37,7 +37,7 @@ body {
   font-size: 120%;
   font-style: italic;
   font-weight: 400;
-  width: 100%;
+  width: 85%;
   margin: auto;
 }
 
@@ -52,7 +52,6 @@ body {
   font-size: 130%;
   position: relative;
   bottom: 30px;
-  color: black;
 }
 
 a,
@@ -705,8 +704,8 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 400;
-  color: black !important;
+  font-weight: 700;
+  color: #575757 !important;
 }
 
 .container {
