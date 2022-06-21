@@ -1022,7 +1022,7 @@ h4 {
   }
   .navbar-brand img {
     max-height: 40px;
-    width: auto;
+    width: 100%;
   }
   .nav-invert .navbar-header {
     float: none;
@@ -1089,7 +1089,7 @@ h4 {
 
 @media (max-width: 400px) {
   body {
-    width: 400px;
+    width: auto;
   }
   .bloc {
     padding-left: 0;
